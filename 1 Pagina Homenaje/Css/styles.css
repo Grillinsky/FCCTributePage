@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;900&display=swap');
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url(/Css/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    padding: 0%;
+    font-family: Inter, sans-serif;
+}
+li{
+    list-style: none;
+    font-stretch: condensed;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-indent: .5em;
+}
+
+a{
+    text-decoration: none;
+}
+header h1 {
+    font-family: Inter, sans-serif;
+    font-size: 4em;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-align: center;
+    color:black;
+}
+footer{
+    display: block;
+    text-align: center;
+    height: 4em;
+}
+.Historia {
+    /* background: rgba( 255, 255, 255, 0.50 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+ */
+
+    padding: .1rem 2rem;
+    font-weight: 300;
+    font-size: large;
+    color: black;
+    display: block;
+    margin: 1em auto;
+    border-radius: 12px;
+    width: 55%;
+    box-shadow: .2em .2em .4em .1em black; 
+    background-color: rgba(252, 248, 250, 0.82);
+}
+.career{
+    width: 75%;
+    display: block;
+    margin: 3em auto 1em auto;
+    padding: 10px;
+    text-align: left;
+}
+img{
+    width: 70%;
+    background-color: rgba(12, 3, 10, 0.02);
+    padding-top: 3em;
+    padding-bottom: 0%;
+    display: block;
+    margin: auto;
+}
+#img-caption {
+    border-radius: 1px 1px 4px 4px;
+    display: block;
+    margin-top: 0%;
+    margin: auto;
+    width: 70%;
+    text-indent: 1em;
+    text-align: left;
+    font-style: italic;
+    margin-top: 0em;
+    color: white;
+    font-weight: 500;
+    background-color: rgba(2, 1, 2, 0.986);
+    border: 1px solid rgba(12, 3, 10, 0.9);
+}
+body{
+    background-image: url(/Css/Imagenes/BackgroundImg.jpg);
+    background-repeat: round;
+}
+button {
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding: 12px;
+}
+/* .Main {
+    margin: 1px;
+    padding: 5px;
+    background-color: green;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+   max-width: 100%;
+
+}     */
+
